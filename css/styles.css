@@ -1,80 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hard Rock Community</title>
-  <!-- Add Bootstrap CSS link -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    /* Custom styles for the hard rock community homepage */
-    body {
-      background-color: #0D0D0D;
-      color: #fff;
-    }
+/* Custom styles for the hard rock community homepage */
+body {
+  background-color: #0D0D0D;
+  color: #fff;
+}
 
-    .jumbotron {
-      background-image: url('your-background-image.jpg'); /* Replace with your background image URL */
-      background-size: cover;
-      text-align: center;
-      padding: 100px;
-      margin-bottom: 0;
-      background-color: #731717;
-    }
+.jumbotron {
+ 
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+  margin-bottom: 0;
+  background-color: #731717;
+}
 
-    .jumbotron h1,
-    .jumbotron p,
-    .jumbotron a {
-      color: #fff;
-    }
+.jumbotron h1,
+.jumbotron p, 
+.jumbotron a {
+  color: #FFFFFF;
+}
 
-    .feature {
-      text-align: center;
-      padding: 50px 20px;
-      background-color: #731717;
-      color: #fff;
-    }
+.feature {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #731717;
+  color: #fff;
+}
 
-    .feature h2 {
-      color: #fff;
-    }
+.feature h2 {
+  color: #fff;
+}
 
-    .feature p {
-      color: #ccc;
-    }
-  </style>
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+.feature p {
+  color: #ccc;
+}
 
-  <!-- Jumbotron Section -->
-  <div class="jumbotron">
-    <h1 class="display-4">Hard Rock Community</h1>
-    <p class="lead">Connect with fellow hard rock enthusiasts!</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Join Now</a>
-  </div>
+.customclass { 
+	font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
 
-  <!-- Features Section with 3 Columns -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 feature">
-        <h2>Rock News</h2>
-        <p>Stay updated with the latest news and releases in the hard rock world.</p>
-      </div>
-      <div class="col-md-4 feature">
-        <h2>Events</h2>
-        <p>Discover upcoming hard rock events, concerts, and festivals in your area.</p>
-      </div>
-      <div class="col-md-4 feature">
-        <h2>Community Forum</h2>
-        <p>Join the discussion in our forum, share your thoughts, and connect with other fans.</p>
-      </div>
-    </div>
-  </div>
 
-  <!-- Add Bootstrap JS and Popper.js scripts -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
+
