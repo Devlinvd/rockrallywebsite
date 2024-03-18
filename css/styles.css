@@ -5,3 +5,34 @@
 }
 
 .float-parent-element {width: 50%;}.float-child-element {float: left;width: 50%;}.red {background-color: darkred;margin-left: 50%;height: 100px;}.yellow {margin-left: 50%;height: 100px;background-color: darkgrey;}
+
+body {
+	background-color: black
+}
+
+/* Custom CSS to change navbar colors */
+.navbar {
+    background-color: #00000; /* Change the background color */
+}
+
+.navbar .navbar-brand {
+    color: #9F0002; /* Change the color of the brand text */
+}
+
+.navbar .nav-link {
+    color: #00000; /* Change the color of the navbar links */
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #9F0002; /* Change the color of active or hovered links */
+}
+
+
+.text-color { 
+	color: white;
+}
+
+.h1 {
+	color: #8c8c8c;
+}
