@@ -44,3 +44,32 @@ body {
 .btn-red{
 	background-color: #9F0002;
 }
+
+.round{
+	border-radius: 30px;
+	}
+
+.textcol-red{
+	color:#9F0002;
+}
+
+.textcol-black{
+	color: black;
+}
+
+.zoom {
+  padding: 10px;
+  transition: transform .2s;
+  width: 800px;
+  height:800px;
+  margin: 0 auto;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.25); 
+}
+
+.textfont {
+	font: "Gill Sans";
+}
