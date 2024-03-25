@@ -596,3 +596,9 @@ footer{
             background-color: #666;
             color: #fff;
         }
+p {
+	color: white;
+}
+li {
+	color: white;
+}
