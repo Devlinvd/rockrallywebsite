@@ -21,20 +21,20 @@ body {
 
 /* Custom CSS to change navbar colors */
 .navbar {
-    background-color: #00000; /* Change the background color */
+    background-color: #00000; /* Changes the background color */
 }
 
 .navbar .navbar-brand {
-    color: #9F0002; /* Change the color of the brand text */
+    color: #9F0002; /* Changes the color of the brand text */
 }
 
 .navbar .nav-link {
-    color: #00000; /* Change the color of the navbar links */
+    color: #00000; /* Changes the color of the navbar links */
 }
 
 .navbar .nav-link.active,
 .navbar .nav-link:hover {
-    color: #9F0002; /* Change the color of active or hovered links */
+    color: #9F0002; /* Changes the color of active or hovered links */
 }
 
 
@@ -74,8 +74,8 @@ body {
   margin: 0 auto;
 }
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
   transform: scale(1.25); 
 }
 
@@ -601,4 +601,8 @@ p {
 }
 li {
 	color: white;
+}
+
+.test {
+	font-kerning:50px;
 }
