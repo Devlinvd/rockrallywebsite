@@ -37,6 +37,10 @@ body {
     color: #9F0002; /* Changes the color of active or hovered links */
 }
 
+.navbar .navbar-toggler-icon {
+	background-color: #9F0002;
+	border-radius: 5%;
+}
 
 .text-color { 
 	color: white;
@@ -588,7 +592,7 @@ footer{
             background-color: #fff;
             border-radius: 50%;
             color: #000000;
-            font-size: 20px;
+            font-size: 25px;
             transition: background-color 0.3s ease;
         }
 
