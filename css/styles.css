@@ -610,3 +610,33 @@ li {
 .test {
 	font-kerning:50px;
 }
+
+
+ table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+        color: black; /* Set header text color to black */
+    }
+
+    tr:nth-child(even) {
+        background-color: #333;
+    }
+
+    /* Set text color for rest of the table */
+    td {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
